@@ -1,0 +1,45 @@
+/* Banner section */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: #161616;
+    width: 90%;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.title {
+    color: white;
+    width: 25%;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+.title p {
+    margin-bottom: 35px;
+    margin-top: -35px;
+}
+
+.title a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 13px;
+    border-radius: 4px;
+}
+
+.image {
+    margin-left: 75px;
+}
