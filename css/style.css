@@ -80,10 +80,14 @@ h2 {
 }
 
 .nav-link {
-    display: grid;
+    display: flex;
+    position: inherit;
+    overflow: inherit;
+    flex-direction: column;
 }
 
 .nav-link button {
+    margin-top: 13px;
     font-size: 20px;
     border-radius: 10px;
     width: 252px;
@@ -272,6 +276,7 @@ footer hr {
 
     .nav-link {
         display: flex;
+        flex-direction: row;
         margin-bottom: 50px;
         justify-content: space-between;
     }
@@ -337,7 +342,7 @@ footer hr {
         padding: 28px;
         align-content: space-evenly;
         border-radius: 10px;
-        margin-bottom: 822px;
+        margin-bottom: auto;
         margin-right: 30px;
     }
 
